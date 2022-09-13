@@ -1,0 +1,33 @@
+.header{
+    max-height: 70px;
+    
+    margin: 0 auto;
+    padding: 25px 82px;
+}
+.header-center{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-holder{
+    align-self: end;
+}
+
+.header-links ul{
+    display:flex
+}
+ li{
+    list-style: none;
+    width:100px
+ }
+
+ li a {
+    font-weight: 700;
+    color: #333B69;
+    font-size: 15px;
+ }
+
+ .active{
+    color:#FA6262;
+ }
