@@ -11,7 +11,7 @@ const Banner = () => {
                     <p className='banner-subtitle'>Focus on engaging, reusable content that decrease the cost per leads while helps you to increase profits margin.</p>
                 </div>
                 <div className='banner-right-column'>
-                    <img src={image} />
+                    
                 </div>                
             </div>
             <Card className='banner-newsletter'>

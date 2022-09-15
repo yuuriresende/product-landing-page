@@ -1,5 +1,4 @@
 .banner{    
-    padding: 180px 180px;
 }
 .banner-left-column{
     display: flex;
@@ -21,13 +20,27 @@ h1{
     margin-bottom: 47px;
     color: #6A798C;
 }
-
+.banner-right-column{
+    background: url(../../assets/column-right.jpg);
+    background-size: cover;
+    height: 500px;
+}
 .banner-left-column, .banner-right-column{
-    width:50%
+    width:50%;
+    padding: 180px 100px;
 }
 .banner-right-column img{
     max-width: 100%;
+    
 }
 .banner-row{
     display: flex;
+    position: relative;
+}
+
+.banner-newsletter{
+    position: relative;
+    bottom: 0px;
+    width: 60%;
+    margin: 0 auto;
 }

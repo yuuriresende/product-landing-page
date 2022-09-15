@@ -1,0 +1,14 @@
+.input-wrapper{
+    display: flex;
+}
+
+.news-title{
+    font-size: 20px;
+    color: #333B69;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.input_control{
+    margin-right: 40px;
+}
